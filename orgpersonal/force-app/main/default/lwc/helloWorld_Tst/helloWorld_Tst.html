@@ -1,0 +1,15 @@
+<template>
+    <div class="slds-p-around_medium">
+        <p class="slds-text-align_center">
+            <lightning-icon icon-name="custom:custom3" title="Hello"></lightning-icon>
+        </p>
+        <p class="slds-text-align_center">
+            The name introduced is: {name}
+        </p>
+
+    </div>
+    <lightning-input 
+        label="Enter a name above"
+        value={name}
+        onchange={handleChange}></lightning-input>
+</template>
